@@ -3,3 +3,6 @@ CMakeCache.txt
 cmake_install.cmake
 MakeFile
 .DS_Store
+Dependencies/
+CMakeLists.txt
+.vscode/
