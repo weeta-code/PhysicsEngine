@@ -1,3 +1,12 @@
 build/
 workspace/
 compile_commands.json
+.vscode/
+# Ignore CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+.DS_Store
+
+
