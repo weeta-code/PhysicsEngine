@@ -23,21 +23,21 @@ namespace atg_scs {
                 assert(row >= 0 && row < m_height);
 
                 m_matrix[row][column] = value;
-            }
+            };
 
             scs_force_inline void add(int column, int row, double value) {
                 assert(column >= 0 && column < m_width);
                 assert(row >= 0 && row < m_height);
 
                 m_matrix[row][column] += value;
-            }
+            };
 
             scs_force_inline double get(int column, int row) {
                 assert(column >= 0 && column < m_width);
                 assert(row >= 0 && row < m_height);
 
                 return m_matrix[row][column];
-            }
+            };
 
             void set(Matrix *reference);
 

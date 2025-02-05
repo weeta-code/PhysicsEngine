@@ -31,5 +31,5 @@ void atg_scs::FixedRotationConstraint::calculate(Output *output, SystemState *st
 
     output->v_bias[0] = 0;
 
-    noLimits(output);
+    // noLimits(output);
 }

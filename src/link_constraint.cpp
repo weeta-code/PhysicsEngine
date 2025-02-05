@@ -1,5 +1,6 @@
 #include "../include/link_constraint.h"
 
+#include <cfloat> // Dbl MAX
 #include <cmath>
 
 atg_scs::LinkConstraint::LinkConstraint() : Constraint(2, 2) {

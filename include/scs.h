@@ -1,5 +1,5 @@
-#ifndef ATG_SIMPLE_2D_CONSTRAINT_SOLVER_SCS_H
-#define ATG_SIMPLE_2D_CONSTRAINT_SOLVER_SCS_H
+#ifndef ATG_SIMPLE_3D_CONSTRAINT_SOLVER_SCS_H
+#define ATG_SIMPLE_3D_CONSTRAINT_SOLVER_SCS_H
 
 #include "generic_rigid_body_system.h"
 #include "optimized_nsv_rigid_body_system.h"

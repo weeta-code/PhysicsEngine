@@ -62,5 +62,5 @@ void atg_scs::LineConstraint::calculate(
     output->C[0] = C;
     output->v_bias[0] = 0;
 
-    noLimits(output);
+   // noLimits(output);
 }

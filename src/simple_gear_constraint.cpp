@@ -41,11 +41,10 @@ void atg_scs::SimpleGearConstraint::calculate(
 
     output->v_bias[0] = 0;
 
-    if (!m_neutral) {
-        noLimits(output);
-    }
-    else {
-        output->limits[0][0] = output->limits[0][1] = 0;
-    }
+   // if (!m_neutral) {
+   //     noLimits(output);
+   // }
+    
+    output->limits[0][0] = output->limits[0][1] = 0;
 }
 
